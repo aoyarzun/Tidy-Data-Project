@@ -3,20 +3,19 @@ This repository is the soluction of Alfredo Oyarzun to the Getting and Cleaning 
 
 The Script does the following main activities:
 
-First: construct the Test Dataset 
+First: build the Test Dataset 
 
 1.-Merges the training and the test sets to create one data set.
 
 2.-Read The features.txt file  to save  the variables to be considered
-features<-read.delim("features.txt", header=FALSE, sep = "\t")
 
 3.-Get the Test observations from X-test Set file
 
-4.-Name The columns assiated with X-test observations
+4.-Name The columns associated with X-test observations
 
 5.-Get the activity Labels-test set from y_test file
 
-6.-Give the name to the  activity label column
+6.-Give the name to the  activity label column 
 
 7.-Get the subject column who performed the experiment from subject file
 
@@ -26,7 +25,7 @@ features<-read.delim("features.txt", header=FALSE, sep = "\t")
 
 
 
-Second: construct the training dataset
+Second: build the training dataset
 
 1.-Get the  train observations X-train file
 
