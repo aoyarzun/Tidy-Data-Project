@@ -1,0 +1,17 @@
+Variables of the "run_analysis.R"   Script file of this repository:
+
+-features_names = dataset that stores the features names
+-X_test =  dataset that stores the Test observations set (2947 obs of 561 variable)
+-y_test =  dataset that stores the Labels-test set (2947 obs of 1 column)
+-subject_test = dataset that stores the subject who performed the test experiment(2947 obs of 1 column)
+-XySubject_test = dataset that bind together all the Test columns: the test observations, test labels and test subjects. (2947 obs of 563 variable)
+-X_train = dataset that stores the Train observations set (7352 obs of 561 variable)
+-y_train = dataset that stores the Labels-train set (7352 obs of 1 column)
+-subject_train = dataset that stores the subject who performed the train  experiment(7352 of 1 column)
+-XySubject_train = dataset that bind together all Train the columns: the train observations, train labels and train subjects.(7352 obs of 563 variable)
+-XySubject_ALL =  dataset that bind together all Test and train observations (10299 obs of 563 columns)
+-Mean_Std = dataset that extracts the columns of mean and standard deviation columns from XySubject_ALL
+-Mean_by_Activity_Subject = dataset that obtain  the average of each variable for each activity and each subject
+
+
+
